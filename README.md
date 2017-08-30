@@ -9,15 +9,15 @@ screenshot is worth a thousand words:
 Mop is implemented in Go and compiles down to a single executable file.
 
     # Make sure your $GOPATH is set.
-    $ go get github.com/michaeldv/mop
-    $ cd $GOPATH/src/github.com/michaeldv/mop
+    $ go get github.com/mop-tracker/mop
+    $ cd $GOPATH/src/github.com/mop-tracker/mop
     $ make            # <-- Compile and run mop.
     $ make build      # <-- Build mop in current directory.
     $ make install    # <-- Build mop and install it in $GOPATH/bin.
 
 
 ### Using Mop ###
-For demonstartion purposes Mop comes preconfigured with a number of
+For demonstration purposes Mop comes preconfigured with a number of
 stock tickers. You can easily change the default list by using the
 following keyboard commands:
 
